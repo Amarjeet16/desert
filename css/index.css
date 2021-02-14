@@ -1,0 +1,263 @@
+body {
+    font-family: "Montserrat";
+    padding-left: 20px;
+    padding-right: 20px;
+   
+  }
+  h1{
+    color: #cf1b1b;
+    font-family: "sans serif";
+  }
+
+  h2{
+    font-family: cursive;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 30px;
+    color: #ffd31d;
+    text-shadow: 4px 4px black;
+  }
+  /* Containers */
+
+.container-fluid{
+    padding-right: 1%;
+    padding-left: 1%;
+  }
+  
+  /* Sections */
+  
+  .colored-section {
+    background-color: #30475e;
+    color: #fff;
+
+  }
+  .navbar {
+    min-height: 80px;
+  }
+  
+  .navbar-brand {
+    padding: 0 15px;
+    font-family: "Ubuntu";
+    height: 80px;
+    line-height: 80px;
+    font-weight: bold;
+    font-size: 32px;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+  }
+  
+  .navbar-toggle {
+    /* (80px - button height 34px) / 2 = 23px */
+    margin-top: 23px;
+    padding: 9px 10px !important;
+  }
+  
+  @media (min-width: 768px) {
+    .navbar-nav > li > a {
+      /* (80px - line-height of 27px) / 2 = 26.5px */
+      padding-top: 26.5px;
+      padding-bottom: 26.5px;
+      line-height: 27px;
+    }
+  }
+  @media (max-width: 532px){
+    .navbar-brand{
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 283px){
+    .navbar-brand{
+      font-size: 10px;
+      padding-left: 0;
+    }
+  }
+
+  /* class safari*/
+  .safari{
+      background-color: #cf7500;
+      height: 50px;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 60px;
+  max-width: 100%;
+  max-height: auto;
+  position: relative;
+  height: 300px;
+  width: 300px;
+  object-fit:cover;
+}
+
+.responsive:hover{
+  transform: scale(1.1);
+}
+  span{
+      padding: 2%;
+      color: #fff;
+      font-size: 12px;
+  }
+
+  .mid{
+      padding-top: 60px;
+      padding-bottom: 60px;
+      padding-right: 100px;
+      padding-left: 100px;
+    
+  }
+  .mid h1{
+  color: #cf7500;
+  }
+ 
+  .mid h4{
+      color: #1d2d50;
+      
+  }
+  .row{
+      padding-top: 50px;
+      padding-bottom: 50px;
+  }
+  
+  .btn {
+    width: 50%;
+    border: none;
+    background-color: #407088;
+    padding: 14px 28px;
+    font-size: 1.8vw;
+    cursor: pointer;
+    display: inline-block;
+  }
+
+  
+  /* On mouse-over */
+  .btn:hover {background: #eee;}
+
+  .colored{
+    height: auto;
+    padding : 30px;
+    text-align: center;
+    background-color: #1d2d50;
+  }
+  .colored h5{
+    color: #c8d5b9;
+  }
+  .colored h1{
+    padding: 40px;
+  }
+  .color{
+    padding: 0;
+    color: #cf7500 ;
+    font-size: 18px;
+  }
+  /*blining effect*/
+blink {
+  -webkit-animation: 1s linear infinite condemned_blink_effect;
+  animation: 1s linear infinite condemned_blink_effect;
+}
+
+/* for Safari 4.0 - 8.0 */
+@-webkit-keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+@keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+.row ul li{
+  padding:  15px;
+}
+.row ol li{
+  padding:  15px;
+}
+.call{
+  background-color: #cf7500;
+  padding:20px;
+  padding-top: 50px;
+  color: #fff;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  
+}
+.call button{
+  width: 50%;
+  border: ivory;
+  color:red;
+}
+.dark{
+  padding: 15px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: black;
+  text-align: center;
+}
+.dark img{
+  height: 100%;
+}
+.dark h4{
+  color: #fff;
+}
+.dark h6{
+  color: #fff;
+}
+.normal{
+  padding-top: 60px;
+  padding-right: 100px;
+  padding-left: 100px;
+  
+    
+}
+.last{
+  padding-top: 60px;
+  padding-bottom: 20px;
+  padding-right: 100px;
+  padding-left: 100px;
+  
+}
+.last ul li{
+  color: #30475e;
+  margin: auto;
+  text-align: center;
+}
+.last ul li:hover{
+  color: blue;
+}
+.end{
+  padding: 40px;
+  background-color: cornsilk;
+  height: auto;
+}
+.end h6{
+  padding-right: 400px;
+  color: #30475e;
+  
+}
